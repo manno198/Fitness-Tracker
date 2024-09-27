@@ -48,7 +48,7 @@ header nav ul li a:hover {
 .welcome {
   height: 600px;
   text-align:center; 
-  background-image: url(pngtree-black-and-white-gym-room.jpg);
+  background-image: url(/Web_06/frontend/images/pngtree-black-and-white-gym-room.jpg);
   background-size: cover;
   
 }
@@ -80,7 +80,7 @@ header nav ul li a:hover {
 }
 
 .form-progress{
-  background-image: url(black-dark-gray-abstract-cement-260nw-1924284146.webp);
+  background-image: url(/Web_06/frontend/images/black-dark-gray-abstract-cement-260nw-1924284146.webp);
   background-size: cover;
 }
 .forms {
