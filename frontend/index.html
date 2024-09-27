@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trackwell</title>
+    <title>Fitness Tracker</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header Section -->
     <header>
-        <div class="logo">Trackwell</div>
+        <div class="logo">Fitness Tracker</div>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -24,10 +24,13 @@
 
     <!-- Welcome Section -->
     <section class="welcome">
+        <div class="welcome-cont">
         <h1>Track Your Fitness Journey!</h1>
         <button class="start-btn">Start Now</button>
+    </div>
+   
     </section>
-
+    <div class="form-progress">
     <!-- Input Forms Section -->
     <section class="forms">
         <div class="form-container">
@@ -74,18 +77,18 @@
     <section class="progress-stats">
         <h2>Your Fitness Progress</h2>
         <div class="stats">
-            <div class="stat-card">Total Workouts: <span>10</span></div>
-            <div class="stat-card">Total Calories Burned: <span>5000</span></div>
-            <div class="stat-card">Meals Logged: <span>20</span></div>
+            <div class="stat-card">Total Workouts: <span>0</span></div>
+            <div class="stat-card">Total Calories Burned: <span>0</span></div>
+            <div class="stat-card">Meals Logged: <span>0</span></div>
         </div>
         <div class="progress-chart">
             <h3>Progress Over Time</h3>
             <div class="progress-bar">
-                <div class="bar" style="width: 70%;"></div>
+                <div class="bar" style="width: 0%;"></div>
             </div>
         </div>
     </section>
-
+</div>
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 Fitness Tracker. All rights reserved.</p>
@@ -95,5 +98,7 @@
             <li><a href="#">Help</a></li>
         </ul>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
